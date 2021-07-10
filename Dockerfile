@@ -8,6 +8,6 @@ RUN apt-get install -y hugo
 
 RUN apt-get install -y python3 python3-pip
 
-RUN pip install mkdocs mkdocs-exclude mkdocs-material
+RUN pip3 install mkdocs mkdocs-exclude mkdocs-material
 
 CMD '/bin/bash'
