@@ -6,7 +6,7 @@ RUN apt-get update
 
 RUN apt-get install -y hugo
 
-RUN apt-get install -y python3 pip
+RUN apt-get install -y python3 python3-pip
 
 RUN pip install mkdocs mkdocs-exclude mkdocs-material
 
