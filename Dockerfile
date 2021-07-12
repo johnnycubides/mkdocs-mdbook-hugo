@@ -1,5 +1,5 @@
 ### IMAGEN BASE ###
-FROM debian:latest
+FROM debian:unstable-slim
 
 ### TOOLS ###
 RUN apt-get update
